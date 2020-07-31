@@ -15,13 +15,10 @@ def inversion_count(list_of_ints):
 
         length = len(arr)
 
-        if length == 0:
-            return [], 0
-
-        elif length == 1:
+        if length in [0, 1]:
             return arr, 0
-
-        split = int(length / 2)
+        else:
+            split = int(length / 2)
 
         # sort each half and count inversions for those halves
         left_half, left_inv = merge_sort_and_count(arr[:split], count)
