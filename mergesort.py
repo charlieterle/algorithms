@@ -9,9 +9,7 @@ def merge_sort(list_of_nums):
     args: list_of_nums - list of numbers
     """
     list_len = len(list_of_nums)
-    if list_len == 0:
-        return []
-    elif list_len == 1:
+    if list_len in [0, 1]:
         return list_of_nums
     else:
         split = int(list_len / 2)
