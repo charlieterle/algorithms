@@ -93,5 +93,5 @@ def createG(file):
 
 
 # example calls using "1" as source node and a previously provided graph_file
-dijkstra("dijkstraData.txt", "1")
-dijkstra("dijkstraData.txt", "1", all_nodes=False, print_nodes=["6", "19", "93", "42"])
+dijkstra("dijkstra_data.txt", "1")
+dijkstra("dijkstra_data.txt", "1", all_nodes=False, print_nodes=["6", "19", "93", "42"])
