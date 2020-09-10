@@ -1,7 +1,7 @@
 # Charles Dieterle
 # Quicksort - first element pivot
 # 27 August 2019
-# edited 28 July 2019
+# edited 28 July 2020
 
 def quicksort(arr):
     """
